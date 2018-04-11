@@ -1,0 +1,4 @@
+<script>function showCity(o){
+    alert(o.country+' - '+o.city)
+}</script>
+<script src="http://ip-api.com/json/?fields=country,city&callback=showCity"></script>

@@ -1,0 +1,42 @@
+/*-----------------------------FOOTER------------------------------------*/
+footer{
+	height: 100px;
+	background-color: #150B06;
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-top: 15px;
+	
+	
+	.copyright{
+		
+		
+		#footer_copy{
+			color:white;
+			font-size: 20px;
+			font-family: 'Raleway-Regular';
+			margin-top: 18px;
+		}
+		
+		#footer_social{
+			margin-top: 15px;
+			position: absolute;
+			right: 6%;
+			a{
+				text-decoration: none;
+				color:#E85355;
+				
+				i{
+					margin-right: 7px;
+				}
+			}
+		}
+		
+	}
+}
+
+
+
+
+
+
+/*-----------------------------FOOTER------------------------------------*/
