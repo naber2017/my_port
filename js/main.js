@@ -6,7 +6,7 @@ var img_hov = $('.img_hover').outerHeight(true);
 var portfolio_h = $('.proj_logo').outerHeight(true);
 var portfolio_w = $('.proj_logo').outerWidth(true);
 var portfolio_length = document.getElementsByClassName('proj_logo').length;
-console.log(portfolio_length);
+//console.log(portfolio_length);
 
 
 
@@ -22,7 +22,7 @@ var resize = function(e){
 		//console.log("ser_changed "+service_bg_height);
 		img_hov = $('.img_hover').outerHeight(true);
 	    document.getElementsByClassName('img_hover')[0].style.height = header_bg_height + 'px';
-		document.getElementById('section1').style.height=header_bg_height+'px';
+		document.getElementById('section1').style.height = header_bg_height+'px';
 		document.getElementById('services').style.height = service_bg_height+'px';
 		document.getElementById('contacts').style.height = contact_bg_height-5+'px';
 	
