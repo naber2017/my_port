@@ -25,7 +25,7 @@ gulp.task('css',function(){
 });
 
 gulp.task('sass', () =>{
-    sass('css/style.scss')
+    sass('css/*.scss')
         .on('error', sass.logError)
 	    .pipe(autoprefixer({
             browsers: ['last 2 versions'],
